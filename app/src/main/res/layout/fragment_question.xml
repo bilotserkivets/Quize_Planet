@@ -19,7 +19,7 @@
         app:layout_constraintEnd_toEndOf="parent"/>
 
     <TextView
-        android:id="@+id/tvAnswer1"
+        android:id="@+id/tvMercury"
         style="@style/answers"
         android:text="@string/mercury"
         android:layout_width="match_parent"
@@ -28,66 +28,66 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
     <TextView
-        android:id="@+id/tvAnswer2"
+        android:id="@+id/tvVenus"
         style="@style/answers"
         android:text="@string/venus"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/tvAnswer1"
+        app:layout_constraintTop_toBottomOf="@+id/tvMercury"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
     <TextView
-        android:id="@+id/tvAnswer3"
+        android:id="@+id/tvEarth"
         style="@style/answers"
         android:text="@string/earth"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/tvAnswer2"
+        app:layout_constraintTop_toBottomOf="@+id/tvVenus"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
     <TextView
-        android:id="@+id/tvAnswer4"
+        android:id="@+id/tvMars"
         style="@style/answers"
         android:text="@string/mars"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/tvAnswer3"
+        app:layout_constraintTop_toBottomOf="@+id/tvEarth"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
     <TextView
-        android:id="@+id/tvAnswer5"
+        android:id="@+id/tvJupiter"
         style="@style/answers"
         android:text="@string/jupiter"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/tvAnswer4"
+        app:layout_constraintTop_toBottomOf="@+id/tvMars"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
     <TextView
-        android:id="@+id/tvAnswer6"
+        android:id="@+id/tvSaturn"
         style="@style/answers"
         android:text="@string/saturn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/tvAnswer5"
+        app:layout_constraintTop_toBottomOf="@+id/tvJupiter"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
     <TextView
-        android:id="@+id/tvAnswer7"
+        android:id="@+id/tvUranus"
         style="@style/answers"
         android:text="@string/uranus"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/tvAnswer6"
+        app:layout_constraintTop_toBottomOf="@+id/tvSaturn"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
     <TextView
-        android:id="@+id/tvAnswer8"
+        android:id="@+id/tvNeptune"
         style="@style/answers"
         android:text="@string/neptune"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/tvAnswer7"
+        app:layout_constraintTop_toBottomOf="@+id/tvUranus"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
 

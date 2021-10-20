@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Android/AndroidStudioProjects/Quizontheplanet/app/src/main/res/layout/activity_main.xml" value="0.18854166666666666" />
+        <entry key="..\:/Android/AndroidStudioProjects/Quizontheplanet/app/src/main/res/layout/fragment_answer.xml" value="0.17447916666666666" />
         <entry key="..\:/Android/AndroidStudioProjects/Quizontheplanet/app/src/main/res/layout/fragment_question.xml" value="0.17447916666666666" />
         <entry key="..\:/Android/AndroidStudioProjects/Quizontheplanet/app/src/main/res/layout/fragment_start.xml" value="0.18854166666666666" />
       </map>

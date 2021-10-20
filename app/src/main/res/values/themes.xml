@@ -49,4 +49,17 @@
         <item name="android:layout_marginTop">16dp</item>
         <item name="android:background">#AEACAC</item>
     </style>
+    <style name="message" parent="answers">
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:background">#6A7EEF</item>
+    </style>
+    <style name="button" parent="TextAppearance.AppCompat.Button">
+        <item name="android:backgroundTint">#3447B6</item>
+        <item name="android:textSize">20sp</item>
+    </style>
 </resources>
